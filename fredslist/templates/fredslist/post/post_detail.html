@@ -1,0 +1,22 @@
+{% extends 'fredslist/base.html' %}
+{% load staticfiles %}
+{% load bootstrap3 %}
+
+{% block content %}
+    {% include 'fredslist/navbar.html' %}
+    <div class="post_main_container">
+        <a href="{% url 'create_favorite' post.id %}"><i class="fa fa-star inline fa-3x"></i></a>
+        <h1 class="category_column inline post_title post_detail_title">{{ post.posting_title }}</h1>
+
+
+        {% for post in post.post_images %}
+            <img src="{{ post.image.url }}" class="post_image">
+        {% endfor %}
+
+        <p class="post_body">{{ post.posting_body }}</p>
+        <br><br>
+        <p class="inline post_time_info" style="margin-right: 30px;">posted: {{ post.created_at }}</p>
+        <p class="inline post_time_info">updated: {{ post.modified_at }}</p>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.home_main_container{
+    margin: auto 10%;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.homepage_title, .category_list_sitetitle{
+    line-height: 90px;
+    color: #551A8B;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 5em;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.homepage_container{
+    margin: auto 10%;
+}
+
+#us_title{
+    margin-bottom: -10px;
+}
+
+#homepage_list{
+    list-style: none;
+}
+
+.state_list{
+    list-style: none;
+}
+
+.category_list_sitetitle{
+    font-size: 3em;
+}
+
+#mySearch{
+    margin-top: -10px;
+    display: block;
+    margin: auto;
+}
+
+.category_column{
+    background: #f4f4f4;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+}
+
+.category_citystate{
+    font-family: "Times New Roman",Times,serif;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+.subcategories{
+    background-color: white;
+}
+
+.subcategories ul{
+    list-style: none;
+}
+
+.category_firstcolumn a{
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.nav_bar1{
+    margin-top: -20px;
+    height: 50px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.nav_bar1 h3, .nav_bar1 p{
+    display: inline-block;
+}
+
+.account{
+    margin-left:  80%;
+    margin-right: 20px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.created_at{
+    font-size: 11px;
+    color: #999;
+}
+
+.post_title{
+    font-size: 22px;
+}
+
+
+@media (min-width: 768px){
+    .form-inline .form-control {
+    display: inline-block;
+    width: 800px;
+    vertical-align: middle;
+    }
+}
+
+.search_filters{
+    list-style: none;
+}
+
+.post_main_container{
+    margin: auto 20%;
+}
+
+.post_detail_title{
+    font-size: 4em;
+    background-color: transparent;
+    border: transparent;
+}
+
+.post_body{
+    font-size: 2em;
+}
+
+
+.post_image{
+    height: 250px;
+    width: 250px;
+}
+
+.thumb{
+    height: 75px;
+    width: 75px;
+    display: none;
+}
